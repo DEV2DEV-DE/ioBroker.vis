@@ -42,20 +42,20 @@
 if (vis.editMode) {
     // Add words for basic widgets
     $.extend(true, systemDictionary, {
-        "table_oid":        {"en": "Table Object ID",           "de": "Table Object ID",        "ru": "ID таблицы"},
-        "static_value":     {"en": "Static JSON(If no ID)",     "de": "Static JSON(If no ID)",  "ru": "Значение, если нет ID таблицы"},
-        "event_oid":        {"en": "Event ID",                  "de": "Ereigniss ID",           "ru": "ID события"},
+        "table_oid":        {"en": "Table Object ID",           "de": "Objekt ID",              "ru": "ID таблицы"},
+        "static_value":     {"en": "Static JSON(If no ID)",     "de": "Test JSON(statisch)",    "ru": "Значение, если нет ID таблицы"},
+        "event_oid":        {"en": "Event ID",                  "de": "Ereignis ID",            "ru": "ID события"},
         "selected_oid":     {"en": "Selected ID",               "de": "Ausgewählt ID",          "ru": "ID для отмеченного"},
         "hide_header":      {"en": "Hide header",               "de": "Kein Header",            "ru": "Скрыть заголовок"},
         "show_scroll":      {"en": "Show scroll",               "de": "Zeige Scrollbar",        "ru": "Показать прокрутку"},
-        "detailed_wid":     {"en": "Detailed widget",           "de": "Detailed widget",        "ru": "Виджет детализации"},
-        "colCount":         {"en": "Column count",              "de": "Kolumnanzahl",           "ru": "Кол-во колонок"},
-        "group_header":     {"en": "Headers",                   "de": "Headers",                "ru": "Заголовок"},
+        "detailed_wid":     {"en": "Detailed widget",           "de": "Detail-Widget",          "ru": "Виджет детализации"},
+        "colCount":         {"en": "Column count",              "de": "Anzahl Spalten",         "ru": "Кол-во колонок"},
+        "group_header":     {"en": "Headers",                   "de": "Überschriften",          "ru": "Заголовок"},
         "colName":          {"en": "Name",                      "de": "Name",                   "ru": "Имя"},
-        "colWidth":         {"en": "Width",                     "de": "Width",                  "ru": "Ширина"},
+        "colWidth":         {"en": "Width",                     "de": "Breite",                 "ru": "Ширина"},
         "colAttr":          {"en": "Attribute in JSON",         "de": "Attribut in JSON",       "ru": "Атрибут в JSON"},
         "ack_oid":          {"en": "Acknowledge ID",            "de": "Bestätigung ID",         "ru": "ID для подтверждения"},
-        "new_on_top":       {"en": "New event on top",          "de": "Neus Ereignis am Anfang", "ru": "Новые события сначала"}
+        "new_on_top":       {"en": "New event on top",          "de": "Neues Ereignis am Anfang", "ru": "Новые события сначала"}
     });
 }
 
